@@ -1,6 +1,6 @@
 from typing import Dict
-from homework_1.math_utils import factorial, fibonacci
-from homework_1.utils import send_json_response, receive_body_as_json
+from lecture_1.hw.math_utils import factorial, fibonacci
+from lecture_1.hw.utils import send_json_response, receive_body_as_json
 
 async def handle_factorial(send, scope: Dict[str, str]) -> None:
     query_string = scope['query_string'].decode()
