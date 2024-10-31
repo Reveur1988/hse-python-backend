@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Query, Response, status
 from typing import Optional
-from lecture_2.hw.shop_api.models import Cart, CartItem
-from lecture_2.hw.shop_api.storage import storage
+from ..models import Cart, CartItem
+from ..storage import storage
 
 router = APIRouter()
 
